@@ -3,7 +3,7 @@ AI Agent Project for Data Analysis with LLM
 
 # DataBuddy: Interactive ERP Sales Analyst 🤖
 
-DataBuddy helps you analyze ERP sales data using natural language. Ask questions like "Top selling product?".
+DataBuddy helps you analyze ERP sales data using natural language. Ask questions like "Top selling product?"
 
 ## Usage
 
