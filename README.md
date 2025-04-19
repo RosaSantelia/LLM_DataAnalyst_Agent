@@ -24,7 +24,8 @@ DataBuddy helps you analyze ERP sales data using natural language. Ask questions
 * Natural language questions
 * Supports common sales analysis
 * Interactive
-* AI-powered understanding
+* AI-powered
+* Powered by an LLM for understanding
 
 ## Future
 
