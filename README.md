@@ -3,31 +3,27 @@ AI Agent Project for Data Analysis with LLM
 
 # DataBuddy: Interactive ERP Sales Analyst 🤖
 
-DataBuddy helps you analyze ERP sales data using natural language. Ask questions like "Top selling product?"
+**Ask your ERP sales data a question — get instant answers. Powered by Python + LLM**
 
-## Usage
+## 🚀 What is DataBuddy?
 
-1.  Install: `pip install pandas transformers`
-2.  Data: Place `erp_sales.csv` in your Google Drive (`/content/drive/MyDrive/`)
-3.  Run: Execute the Python script in Colab
-4.  Interact: Ask questions about your sales data when prompted
+DataBuddy is a natural language assistant that helps you explore ERP sales data (CSV) with simple questions like:
 
-## Example Queries
+- "What's the most sold product?"
+- "Total revenue?"
+- "Sales by region?"
+- "Top product in March?"
 
-* Most popular software?
-* Total revenue?
-* Monthly sales?
-* Sales by region?
+Built with Python and `transformers` (FLAN-T5), it turns your questions into real insights.
 
-## Key Features
+## ⚙️ How It Works
 
-* Natural language questions
-* Supports common sales analysis
-* Interactive
-* AI-powered
-* Powered by an LLM for understanding
+1. Loads your ERP sales CSV
+2. Uses a lightweight LLM to understand your prompt
+3. Matches the intent to a data operation
+4. Returns the result with a friendly message
 
-## Future
+Install dependencies:
 
-* More advanced language understanding
-* Data visualization
+```bash
+pip install pandas transformers
